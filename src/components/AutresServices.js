@@ -6,7 +6,7 @@ class AutresServices extends React.Component{
     render(){
         return (
 		
-					<div  style={{marginTop:10}}>
+					<div  style={{marginTop:10, marginBottom:50, padding:50}}>
                         <div className="card-panel hoverable " >
 		
                             <ul />

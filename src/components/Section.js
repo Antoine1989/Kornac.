@@ -9,10 +9,10 @@ class Section extends React.Component {
 
     render() {
         return (
-            <Container fluid className="section rounded" style={{marginBottom : 100, padding:15}}>
+            <Container fluid className="section rounded" style={{ marginTop:50, padding:20}}>
             <Row>
             <Col>
-            <h2 className="text-ruban">Pourquoi faire appel à Kornac ?</h2>
+            <h2><b>Pourquoi faire appel à Kornac ?</b></h2>
             <p >
                 Kornac apporte une offre de services
                 adaptés et personnalisés aux acteurs
