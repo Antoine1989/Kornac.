@@ -7,7 +7,7 @@ class AutresServices extends React.Component{
         return (
 		
 					<div  style={{marginTop:10}}>
-                        <div class="card-panel hoverable " >
+                        <div className="card-panel hoverable " >
 		
                             <ul />
                                 <li className="autres-services"> Livraisons sur chantiers de matériaux

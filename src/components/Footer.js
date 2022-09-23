@@ -7,8 +7,8 @@ class Footer extends React.Component{
     render(){
         return (
 
-<footer class="page-footer fixed-bottom" style={{marginTop:100, paddingTop:20}}>
-        <div class="container">
+<footer className="page-footer fixed-bottom" style={{marginTop:100, paddingTop:20}}>
+        <div className="container">
           <div className="row">
            
             <div className="col l6 offset-l2 s12">
