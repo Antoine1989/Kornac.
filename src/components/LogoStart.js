@@ -9,7 +9,7 @@ class LogoStart extends React.Component{
 
 <Container  style={{marginTop: 150}}>
           
-<img src="./img/logo_kornac_corail.png" className="logo corail" />
+<img src="./img/logo_kornac_corail.png" alt="logo-kornac" className="logo moved3" />
 </Container>
   );
 

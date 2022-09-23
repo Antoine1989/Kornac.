@@ -202,3 +202,20 @@ li{
   width: 90%;
 }
 }
+.moved3 {
+  animation-duration: 1s;
+  animation-name: slidein3;
+ 
+}
+@keyframes slidein3 {
+  from {
+    margin-right: 0%;
+    width: 0%;
+  }
+
+  to {
+    margin-right: 0%;
+    width: 25%;
+  }
+  
+}

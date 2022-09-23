@@ -17,7 +17,7 @@ function App() {
    <div className="App background-kornac">
     <Header />
     <LogoStart/>
-      <h1></h1>
+      
     <Ruban/>
     <Description/>
     <Services/>
