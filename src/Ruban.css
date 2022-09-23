@@ -1,0 +1,32 @@
+.text-ruban {
+    opacity:0;
+    -moz-animation: anim 1s linear forwards 2s;
+    -webkit-animation: anim 1s linear forwards 2s;
+    -o-animation: anim 1s linear forwards 2s;
+    -ms-animation: anim 1s linear forwards 2s;
+    animation: anim 1s linear forwards 2s;
+}
+@-moz-keyframes anim {
+   0%  {opacity:0;}
+   100% {opacity:1;}
+}
+@-webkit-keyframes anim {
+   0%  {opacity:0;}
+   100% {opacity:1;}
+}
+@-o-keyframes anim {
+   0%  {opacity:0;}
+   100% {opacity:1;}
+}
+@-ms-keyframes anim {
+   0%  {opacity:0;}
+   100% {opacity:1;}
+}
+@keyframes anim {
+   0%  {opacity:0;}
+   100% {opacity:1;}
+}
+
+.rounded{
+    border-radius: 10px !important;
+}
