@@ -19,7 +19,7 @@ class Avantages extends React.Component {
                     nous sommes équipés de camions grue pour
                     faciliter l’évacuation de vos déchets. </p>
                     <br></br><br></br>
-                    <li className="text-vert services2 li-avantages"><img src="./img/leaf.png" alt="valorisation image" className="img-avantages" style={{width:80}}/> Améliorez votre image auprès de vos
+                    <li className="text-vert services2 li-avantages"><img src="./img/leaf.png" alt="valorisation" className="img-avantages" style={{width:80}}/> Améliorez votre image auprès de vos
                     clients</li>
                     <p className="p-avantages">en participant à la préservation des ressources :<br></br>
                     nous nous efforçons de trouver le meilleur moyen
