@@ -9,6 +9,7 @@ import LogoStart from './LogoStart';
 import Services from './Services';
 import Ruban2 from './Ruban2';
 import Section from './Section';
+import Avantages from './Avantages';
 
 
 function App() {
@@ -24,7 +25,7 @@ function App() {
     <Ruban2/>
     <Section/>
     <br/><br/><br/>
-
+    <Avantages/>
     <Footer/>
     </div>
    

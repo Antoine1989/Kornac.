@@ -14,7 +14,7 @@ class Footer extends React.Component{
             <div className="col l6 offset-l2 s12">
               
               <ul>
-                <li className="text-white li-footer"style={{ paddingBottom:10}}><FontAwesomeIcon icon={faMobileAndroid} />  06.65.59.32.34 | <FontAwesomeIcon icon={faEnvelopeOpen} /> contact@kornac.fr</li>
+                <li className="text-white li-footer"style={{ paddingBottom:10}}><FontAwesomeIcon icon={faMobileAndroid} />  06.65.59.32.34        | <FontAwesomeIcon icon={faEnvelopeOpen} />      contact@kornac.fr</li>
                 
                 <li className="text-white li-footer"><FontAwesomeIcon icon={faLocationPin} />  Rue Victor Schoelcher - Z.I des Noës, 44550 MONTOIR-DE-BRETAGNE</li>
                

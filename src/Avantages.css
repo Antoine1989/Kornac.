@@ -1,0 +1,25 @@
+.card-panel2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-self: center;
+   
+  }
+
+  .services2{
+ 
+    font-size: 100% !important;
+  }
+  .text-vert{
+    color:#b9ce00!important;
+    font-size: medium !important ;
+  }
+
+  .img-avantages{
+    width:  15%;
+    height:  20%;
+  }
+
+  .li-avantages{
+    font-size: 200% !important;
+  }

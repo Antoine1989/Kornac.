@@ -16,8 +16,8 @@ render(){
         
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto text-align-center">
-            <Nav.Link href="#home" className="text-white">Acceuil</Nav.Link>
-            <Nav.Link href="#link"className="text-white">Contact</Nav.Link>
+            <Nav.Link href="#home" className="text-white"  >Acceuil</Nav.Link>
+            <Nav.Link href="#link"className="text-white" >Contact</Nav.Link>
             </Nav>
         </Navbar.Collapse>
         </Container>  
