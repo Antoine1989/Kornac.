@@ -26,9 +26,9 @@ class Avantages extends React.Component {
                     de valoriser vos déchets et ainsi leur donner une
                     seconde vie.</p>
                     <br></br><br></br>
-                    <li className="text-vert services2 li-avantages"><img src="./img/pims.png" alt="conformité" className="img-avantages" style={{width:80}}/> Soyez en conformité avec la législation</li>
-                    <p className="p-avantages"> (décret n° 2021-950 du 16 juillet 2021 relatif au tri
-                     des déchets) : <br></br>nous fournissons une attestation
+                    <li className="text-vert services2 li-avantages"><img src="./img/pims.png" alt="conformité" className="img-avantages" style={{width:80}}/> Passez au tri « 7 flux », soyez en conformité avec la législation</li>
+                    <p className="p-avantages"> Décret n° 2021-950 du 16 juillet 2021 relatif au tri
+                     des déchets : <br></br>nous fournissons une attestation
                     de valorisation.</p>
                 <ul/>
             </div>

@@ -16,7 +16,7 @@ class Section extends React.Component {
             <p >
                 Kornac apporte une offre de services
                 adaptés et personnalisés aux acteurs
-                de la construction et de la rénovation.
+                de la construction et de la rénovation, mais aussi aux entreprises productrices de déchets non-dangereux.
             </p>
             <b >Confiez-nous la gestion de vos
             déchets et ainsi :</b>
