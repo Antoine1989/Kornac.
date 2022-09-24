@@ -8,7 +8,7 @@ class Avantages extends React.Component {
             <div className="card-panel2 hoverable " >
 
                 <ul/>
-                    <li className="text-vert services2 li-avantages"><img src="./img/clock2.png" alt="productivité" className="img-avantages"/> Augmentez votre productivité</li>
+                    <li className="text-vert services2 li-avantages"><img src="./img/clock3.png" alt="productivité" className="img-avantages"/> Augmentez votre productivité</li>
                     <p className="p-avantages">Ne perdez plus de temps à attendre votre tour
                     à la déchèterie :<br></br> nous collectons régulièrement
                     vos déchets.</p>

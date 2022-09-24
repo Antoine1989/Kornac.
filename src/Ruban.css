@@ -30,3 +30,6 @@
 .rounded{
     border-radius: 10px !important;
 }
+.rounded-section{
+    border-radius: 0px 10px 90px 0px !important;
+}

@@ -9,7 +9,7 @@ class Section extends React.Component {
 
     render() {
         return (
-            <Container fluid className="section rounded" style={{ marginTop:50, padding:20}}>
+            <Container fluid className="section rounded-section" style={{ marginTop:50, padding:20}}>
             <Row>
             <Col>
             <h2><b>Pourquoi faire appel à Kornac ?</b></h2>
