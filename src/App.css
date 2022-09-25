@@ -87,6 +87,7 @@ li{
 }
 .reseaux{
   float: right !important;
+  font-size: 110% !important;
 }
 .ruban {
   background: #e94c2e;
@@ -130,7 +131,7 @@ li{
   }
   .services{
  
-    font-size: 250% !important;
+    font-size: 150% !important;
   }
   .servicesvert{
     font-size: 250% !important;

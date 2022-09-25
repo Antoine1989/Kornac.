@@ -14,19 +14,19 @@ class Avantages extends React.Component {
                     vos déchets.</p>
                     <br></br><br></br>
                     <li className="text-vert services2 li-avantages"><img src="./img/pansement.png" alt="santé" className="img-avantages"/> Préservez la santé des intervenants</li>
-                    <p className="p-avantages">avec des chantiers moins accidentogènes
+                    <p className="p-avantages">Avec des chantiers moins accidentogènes
                     et moins de manipulations manuelles :<br></br>
                     nous sommes équipés de camions grue pour
                     faciliter l’évacuation de vos déchets. </p>
                     <br></br><br></br>
                     <li className="text-vert services2 li-avantages"><img src="./img/leaf.png" alt="valorisation" className="img-avantages" style={{width:80}}/> Améliorez votre image auprès de vos
                     clients</li>
-                    <p className="p-avantages">en participant à la préservation des ressources :<br></br>
+                    <p className="p-avantages">En participant à la préservation des ressources :<br></br>
                     nous nous efforçons de trouver le meilleur moyen
                     de valoriser vos déchets et ainsi leur donner une
                     seconde vie.</p>
                     <br></br><br></br>
-                    <li className="text-vert services2 li-avantages"><img src="./img/pims.png" alt="conformité" className="img-avantages" style={{width:80}}/> Passez au tri « 7 flux », soyez en conformité avec la législation</li>
+                    <li className="text-vert services2 li-avantages"><img src="./img/pims.png" alt="conformité" className="img-avantages" style={{width:80}}/> Passez au tri « 7 flux » et soyez en conformité avec la législation</li>
                     <p className="p-avantages"> Décret n° 2021-950 du 16 juillet 2021 relatif au tri
                      des déchets : <br></br>nous fournissons une attestation
                     de valorisation.</p>
