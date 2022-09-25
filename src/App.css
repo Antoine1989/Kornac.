@@ -85,6 +85,10 @@ li{
   color:#b9ce00 !important;
   cursor:pointer;
 }
+.reseaux{
+  float: right !important;
+  font-size: 110% !important;
+}
 .ruban {
   background: #e94c2e;
   height: 100%;
@@ -102,12 +106,16 @@ li{
     color: #e94c2e;
     height: 100%;
     width: 50%;
-    
+    position: relative;
+    left:-15px;
     right:0px;
     top: 30px;
     float: right;
     border-radius: 90px 0px 0px 10px !important;
    
+  }
+  .plus{
+    float: right;
   }
   
   .ruban h2 {
@@ -123,7 +131,7 @@ li{
   }
   .services{
  
-    font-size: 250% !important;
+    font-size: 150% !important;
   }
   .servicesvert{
     font-size: 250% !important;
