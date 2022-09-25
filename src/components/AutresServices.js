@@ -6,13 +6,12 @@ class AutresServices extends React.Component{
     render(){
         return (
 		
-					<div  style={{marginTop:10, marginBottom:50, padding:50}}>
-                        <div className="card-panel hoverable " >
+					<div  style={{marginBottom: 60, marginTop:10, padding:10}}>
+                        <div className="card-panel hoverable ">
 		
                             <ul />
-                                <li className="autres-services"> Livraisons sur chantiers de matériaux
-                                cuves, sanitaires, arbres, terre végétale...</li>
-                                <li className="autres-services">Collecte de déchets végétaux</li>
+                                <li className="autres-services"> Livraisons sur chantiers de matériaux : graviers, sable, terre végétale en vrac ou en big bag, laine de verre, cuves à eau...</li>
+                                <li className="autres-services">Évacuation de gravats, de déchets végétaux...</li>
                                 <li className="autres-services">Levage</li>
                                
                             <ul/>

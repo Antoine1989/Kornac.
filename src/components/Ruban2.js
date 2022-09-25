@@ -10,10 +10,11 @@ class Ruban2 extends React.Component{
     render(){
         return (
             
-        <Row style={{marginBottom: 50}}>
+        <Row style={{marginBottom:100 }}>
             <Col>
-                <div className="ruban2 moved2 rounded">     
-                <h2 className='text-ruban'>Nos autres services: </h2>  
+                <div className="ruban2  ">  
+                <img src="./img/plus.png" alt="autres service" style={{marginLeft:50, marginBottom:10}}/>   
+                <h2 className='text-ruban2'>Nos autres services:  </h2>  
                 <AutresServices/>
                 </div> 
                 

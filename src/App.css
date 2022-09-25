@@ -102,12 +102,12 @@ li{
     color: #e94c2e;
     height: 100%;
     width: 50%;
-    position: relative;
-    left:-15px;
-    top: 30px;
-    float: left;
     
-    z-index: 100;
+    right:0px;
+    top: 30px;
+    float: right;
+    border-radius: 90px 0px 0px 10px !important;
+   
   }
   
   .ruban h2 {
