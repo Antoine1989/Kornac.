@@ -109,6 +109,9 @@ li{
     border-radius: 90px 0px 0px 10px !important;
    
   }
+  .plus{
+    float: right;
+  }
   
   .ruban h2 {
   font-size: 300%;

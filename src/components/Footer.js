@@ -21,8 +21,8 @@ class Footer extends React.Component{
                 
                 <li className="text-white li-footer"><FontAwesomeIcon icon={faLocationPin} />  Rue Victor Schoelcher - Z.I des Noës, 44550 MONTOIR-DE-BRETAGNE
                 </li>
-                <li><a href="https://www.facebook.com/profile.php?viewas=100000686899395&id=100082932746672" className="text-white"><FontAwesomeIcon  icon={faFacebookF} style={{ marginRight: 20}} className="icones-footer"/></a>
-                <a href="https://www.linkedin.com/company/kornac/" className="text-white"><FontAwesomeIcon   icon={faLinkedin} style={{ marginRight: 100}} className="icones-footer"/>{/*<Link to="https://www.linkedin.com/company/kornac/"/>*/}
+                <li><a href="https://www.facebook.com/profile.php?id=100082932746672" className="text-white" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon  icon={faFacebookF} style={{ marginRight: 20}} className="icones-footer"/></a>
+                <a href="https://www.linkedin.com/company/kornac/" className="text-white" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon   icon={faLinkedin} style={{ marginRight: 100}} className="icones-footer"/>{/*<Link to="https://www.linkedin.com/company/kornac/"/>*/}
                 </a>
                 </li>
               </ul>
