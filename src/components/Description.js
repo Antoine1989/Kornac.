@@ -12,7 +12,7 @@ class Description extends React.Component{
               <Col xs={6} md={5} className="test text-ruban" style={{marginLeft: 10}}>
                 Une solution simple et adaptée
             pour l’évacuation et la gestion
-            de vos déchets de chantiers.</Col>
+            de vos déchets.</Col>
             </Row>
           </Container>
             

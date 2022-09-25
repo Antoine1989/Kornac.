@@ -16,8 +16,12 @@ render(){
         
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto text-align-center">
-            <Nav.Link href="#home" className="text-white"  >Acceuil</Nav.Link>
-            <Nav.Link href="#link"className="text-white" >Contact</Nav.Link>
+           {/* <Nav.Link href="#home" className="text-white"  >Acceuil</Nav.Link>
+            <Nav.Link href="#link"className="text-white" >Contact</Nav.Link>*/}
+            <p className="text-white" style={{ paddingTop:10}}>Pour professionnels et particuliers
+            </p>
+            <p className="text-white" style={{ marginLeft: 170,paddingTop:10}}>Devis gratuit sur demande
+            </p>
             </Nav>
         </Navbar.Collapse>
         </Container>  

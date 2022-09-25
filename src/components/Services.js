@@ -7,14 +7,14 @@ class Services extends React.Component{
     render(){
         return (
 		
-					<div className="col s12 m6 center" style={{marginTop:50, marginBottom: 50}}>
+					<div className="col s12 m6 center" style={{marginTop:60, marginBottom: 50}}>
                         <div className="card-panel hoverable " >
 		
                             <ul/>
-                                <li className="text-corail services"><FontAwesomeIcon icon={faCheck} /> Tri à la source</li>
-                                <li className="text-corail services"><FontAwesomeIcon icon={faCheck} />Collecte</li>
-                                <li className="text-corail services"><FontAwesomeIcon icon={faCheck} />Valorisation</li>
-                                <li className="text-corail services"><FontAwesomeIcon icon={faCheck} />Traçabilité</li>
+                                <li className="text-corail servicesvert"><FontAwesomeIcon icon={faCheck} /> Tri à la source</li>
+                                <li className="text-corail servicesvert"><FontAwesomeIcon icon={faCheck} />Collecte</li>
+                                <li className="text-corail servicesvert"><FontAwesomeIcon icon={faCheck} />Valorisation</li>
+                                <li className="text-corail servicesvert"><FontAwesomeIcon icon={faCheck} />Traçabilité</li>
                             <ul/>
                         </div>
 				</div>
