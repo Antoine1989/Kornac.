@@ -85,6 +85,9 @@ li{
   color:#b9ce00 !important;
   cursor:pointer;
 }
+.reseaux{
+  float: right !important;
+}
 .ruban {
   background: #e94c2e;
   height: 100%;
