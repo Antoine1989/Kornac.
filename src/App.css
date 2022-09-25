@@ -105,7 +105,8 @@ li{
     color: #e94c2e;
     height: 100%;
     width: 50%;
-    
+    position: relative;
+    left:-15px;
     right:0px;
     top: 30px;
     float: right;
