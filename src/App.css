@@ -102,15 +102,21 @@ li{
   
 }
 .li-footer{
-  text-align: justify;
+  text-align:justify;
   margin-left: 70;
+}
+
+.icones-footer{
+  color: #fff;
+ float:right;
+ margin-right: 20 ;
 }
 .icones-footer:hover{
   color:#b9ce00 !important;
   cursor:pointer;
 }
 .reseaux{
-  float: right !important;
+  /*float: right !important;*/
   font-size: 110% !important;
 }
 .ruban {
@@ -199,6 +205,9 @@ li{
 .footer-copyright{
   float: right;
 }
+.bg-dark{
+  background-color: #444444 !important
+}
   .moved {
     animation-duration: 1s;
     animation-name: slidein;
@@ -248,19 +257,7 @@ li{
 }
 
 
-@media all and (max-width: 500px) {
-.logo{
-  height: 300px;
-}
-.ruban, .ruban2{
-  width: 90%;
-}
-}
-.moved3 {
-  animation-duration: 1s;
-  animation-name: slidein3;
- 
-}
+
 @keyframes slidein3 {
   from {
     margin-right: 0%;
@@ -275,4 +272,33 @@ li{
 }
 .mentions{
   color: #e94c2e !important;
+}
+
+.moved3 {
+  animation-duration: 1s;
+  animation-name: slidein3;
+ 
+}
+
+
+@media all and (max-width: 500px) {
+  .logo{
+    height: 300px;
+  }
+  .ruban, .ruban2{
+    width: 90%;
+  }
+.li-footer{
+  display: flex;
+  margin-left: 0;
+}
+.footer-line{
+  display: flex;
+  flex-wrap: wrap;
+  justify-items: center;
+}
+.icones-footer{
+  margin-left: 0;
+}
+
 }

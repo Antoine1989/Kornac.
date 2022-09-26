@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button, Container } from 'react-bootstrap';
-import Footer from './Footer';
+import FooterBootstrap from './FooterBootstrap';
 import Header from './Header';
 
 const Mentions = () => {
@@ -26,7 +26,7 @@ const Mentions = () => {
                  <Button className="retour-mentions">Retour</Button>
                  </a>
                  </Container>
-            <Footer/>
+            <FooterBootstrap/>
             </div>
         );
     }
