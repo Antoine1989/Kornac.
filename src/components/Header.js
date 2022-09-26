@@ -10,7 +10,7 @@ render(){
     return (
       
     <Navbar className="bg-corail" expand="lg" fixed="top" >
-      <Navbar.Brand href="#home"><img src="./img/logo_kornac_blanc2.png" alt="logo" style={{marginLeft: 5}}  className="logo-navbar"/></Navbar.Brand>
+      <Navbar.Brand href="/"><img src="./img/logo_kornac_blanc2.png" alt="logo" style={{marginLeft: 5}}  className="logo-navbar"/></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Container fluid="md">
         

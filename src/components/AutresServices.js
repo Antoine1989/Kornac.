@@ -12,7 +12,7 @@ class AutresServices extends React.Component{
                             <ul />
                                 <li className="autres-services"> Livraisons sur chantiers de matériaux : graviers, sable, terre végétale en vrac ou en big bag, laine de verre, cuves à eau...</li>
                                 <li className="autres-services">Évacuation de gravats, de déchets végétaux...</li>
-                                <li className="autres-services">Levage</li>
+                                
                                
                             <ul/>
                         </div>

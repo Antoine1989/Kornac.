@@ -3,6 +3,30 @@
 body{
   background:linear-gradient( #757f9a,  #fff);
 }
+.body-mentions{
+  background-color: #fff;
+  text-align: center !important;
+  display: flex;
+  justify-content: center !important;
+  flex-direction: column;
+  align-self: center;
+}
+
+.retour-mentions{
+  background-color: #fff;
+  border-color: #e94c2e;
+  border-radius: 10px;
+  color: #140907;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.retour-mentions:hover {
+  background-color: #44444439;
+  border-color: #fff;
+  border-radius: 30px;
+  color: #e94c2e;
+  transition: 1s;
+}
 .App {
   text-align: center;
 }
@@ -78,15 +102,21 @@ li{
   
 }
 .li-footer{
-  text-align: justify;
-  margin-left: 100;
+  text-align:justify;
+  margin-left: 70;
+}
+
+.icones-footer{
+  color: #fff;
+ float:right;
+ margin-right: 20 ;
 }
 .icones-footer:hover{
   color:#b9ce00 !important;
   cursor:pointer;
 }
 .reseaux{
-  float: right !important;
+  /*float: right !important;*/
   font-size: 110% !important;
 }
 .ruban {
@@ -175,6 +205,9 @@ li{
 .footer-copyright{
   float: right;
 }
+.bg-dark{
+  background-color: #444444 !important
+}
   .moved {
     animation-duration: 1s;
     animation-name: slidein;
@@ -224,19 +257,7 @@ li{
 }
 
 
-@media all and (max-width: 500px) {
-.logo{
-  height: 300px;
-}
-.ruban, .ruban2{
-  width: 90%;
-}
-}
-.moved3 {
-  animation-duration: 1s;
-  animation-name: slidein3;
- 
-}
+
 @keyframes slidein3 {
   from {
     margin-right: 0%;
@@ -248,4 +269,36 @@ li{
     width: 25%;
   }
   
+}
+.mentions{
+  color: #e94c2e !important;
+}
+
+.moved3 {
+  animation-duration: 1s;
+  animation-name: slidein3;
+ 
+}
+
+
+@media all and (max-width: 500px) {
+  .logo{
+    height: 300px;
+  }
+  .ruban, .ruban2{
+    width: 90%;
+  }
+.li-footer{
+  display: flex;
+  margin-left: 0;
+}
+.footer-line{
+  display: flex;
+  flex-wrap: wrap;
+  justify-items: center;
+}
+.icones-footer{
+  margin-left: 0;
+}
+
 }
