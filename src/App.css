@@ -3,6 +3,10 @@
 body{
   background:linear-gradient( #757f9a,  #fff);
 }
+.body-mentions{
+  background-color: #fff;
+  text-align: justify;
+}
 .App {
   text-align: center;
 }
@@ -248,4 +252,7 @@ li{
     width: 25%;
   }
   
+}
+.mentions{
+  color: #e94c2e !important;
 }
