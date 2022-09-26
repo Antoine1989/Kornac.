@@ -1,4 +1,5 @@
 import React from 'react';
+import { Button, Container } from 'react-bootstrap';
 import Footer from './Footer';
 import Header from './Header';
 
@@ -7,6 +8,7 @@ const Mentions = () => {
             
             <div className="body-mentions">
                 <Header/>
+                <Container>
                 <ul  style={{marginBottom:250}}/>
                         <li> EURL KORNAC</li>
                         <li>Rue Victor SCHOELCHER, ZI des noës</li>
@@ -17,6 +19,13 @@ const Mentions = () => {
                         <li>TVA intra-communautaire : 30912194602</li>
                         <li>Inscription au Registre du Commerce et des Sociétés de Saint-Nazaire</li>
                  <ul/>
+                 </Container>
+
+                 <Container style={{marginBottom:250}}>
+                 <a href="/">
+                 <Button className="retour-mentions">Retour</Button>
+                 </a>
+                 </Container>
             <Footer/>
             </div>
         );

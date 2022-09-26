@@ -5,7 +5,27 @@ body{
 }
 .body-mentions{
   background-color: #fff;
-  text-align: justify;
+  text-align: center !important;
+  display: flex;
+  justify-content: center !important;
+  flex-direction: column;
+  align-self: center;
+}
+
+.retour-mentions{
+  background-color: #fff;
+  border-color: #e94c2e;
+  border-radius: 10px;
+  color: #140907;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.retour-mentions:hover {
+  background-color: #44444439;
+  border-color: #fff;
+  border-radius: 30px;
+  color: #e94c2e;
+  transition: 1s;
 }
 .App {
   text-align: center;
@@ -83,7 +103,7 @@ li{
 }
 .li-footer{
   text-align: justify;
-  margin-left: 100;
+  margin-left: 70;
 }
 .icones-footer:hover{
   color:#b9ce00 !important;
